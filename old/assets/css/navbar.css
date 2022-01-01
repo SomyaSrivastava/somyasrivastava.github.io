@@ -1,0 +1,126 @@
+/* @media (max-width:700px){ */
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 62.5%;
+  margin: 0;
+}
+.top {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  font: rgb(238, 238, 238);
+}
+
+.color-pallete {
+  color: #db6b97;
+  color: #f2ffe9;
+  color: #a6cf98;
+  color: #557c55;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: #db6b97;
+  height: 100%;
+}
+.left-nav {
+  border: 3px solid #73ad21;
+}
+.right-nav {
+  border: 3px solid #73ad21;
+}
+.img-responsive {
+  border-radius: 50%;
+  display: none !important;
+}
+.header {
+  color: #f2ffe9;
+  font-size: 1vw;
+  font-family: "Sofia";
+  text-transform: capitalize;
+  text-decoration-line: overline;
+  padding-right: 3vh;
+  padding-top: 2vh;
+  padding-left: 1vh;
+  width: 30vw;
+  height: auto;
+  margin-top: auto;
+  border-right: 0.8vw double #eeeeee;
+  border-bottom: 0.1vw dashed #eeeeee;
+  border-radius: 50%;
+  background-color: #db6b97;
+}
+
+.color {
+  color: rgb(139, 154, 70);
+}
+
+.no-margin {
+  margin: 0;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+  text-justify: uppercase;
+}
+.pic {
+  border-radius: 50%;
+  height: 15%;
+  width: 30%;
+  border-color: rgb(139, 154, 70);
+  border-width: thick;
+}
+
+.story {
+  color: #eeeeee;
+  font-size: 2vw;
+  padding: 1vw;
+  font-family: "Sofia";
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+.sidenav {
+  height: 100%;
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 1vh;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.left-sidebar {
+  float: left;
+  /* top: 0;
+  left: 0;
+  position: fixed; */
+}
+
+.right-sidebar {
+  float: right;
+  /* top: 0; */
+  /* left: 100%; */
+  /* position: fixed; */
+}
