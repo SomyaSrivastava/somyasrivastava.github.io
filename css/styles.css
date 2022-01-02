@@ -11887,11 +11887,16 @@ html {
   border-radius: 50%;
 }
 
-body {
+body,
+h1,
+h2 {
   font-family: Comfortaa;
+  text-transform: capitalize;
 }
 .namaste {
   font-family: Sacramento;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #eee;
 }
 .namaste-meaning {
   display: none;
