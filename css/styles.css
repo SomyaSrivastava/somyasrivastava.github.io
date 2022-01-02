@@ -11903,3 +11903,8 @@ body {
 .masthead .masthead-subheading {
   font-weight: 400;
 }
+
+.contact-me {
+  margin: auto;
+  width: 40%;
+}
